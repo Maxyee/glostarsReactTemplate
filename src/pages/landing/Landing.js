@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 
 //------------ Components Start ------------------
 import Navbar from './components/Navbar';
+import Signup from './components/Signup';
+import SignUpForm from './components/SignUpForm';
+import Container from './components/Container';
+import Footer from './components/Footer';
 //------------ Components End ------------------
 
 
@@ -18,6 +22,10 @@ class Landing extends Component{
         return(
             <div>
                 <Navbar></Navbar>
+                <Signup></Signup>
+                <SignUpForm></SignUpForm>
+                <Container></Container>
+                <Footer></Footer>
             </div>
         );
     }
