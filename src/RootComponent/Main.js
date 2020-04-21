@@ -24,8 +24,7 @@ import Profile from '../pages/profile/Profile';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link    
+    Route    
 } from 'react-router-dom';
 
 
@@ -35,16 +34,6 @@ class Main extends Component{
             <Router>
                 <div>
                     <Switch>
-                            {/* <Route exact path="/">
-                                <Landing></Landing>
-                            </Route>
-                            <Route path="/competition">
-                                <Competition></Competition>
-                            </Route>
-                            <Route path="/profile">
-                                <Profile></Profile>
-                            </Route> */}
-
                             <Route exact path="/">
                                 <Profile></Profile>
                             </Route>
