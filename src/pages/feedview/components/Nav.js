@@ -11,7 +11,7 @@ class Nav extends Component{
         return(
             <div className="nav">
                 
-                <img src={image} className="logo" alt='logo'/>
+                <img src={image} className="logo1" alt='logo'/>
                 <img src={image1} className="search" alt='logo'/>
                 <img src={image2} className="navlogo" alt='logo'/>
                 

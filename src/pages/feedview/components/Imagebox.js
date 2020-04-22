@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 //------------ Components Start ------------------
-import Img from './components/Img';
+import Img from './Img';
 //------------ Components End ------------------
 
 //----------------- CSS Start-------------------

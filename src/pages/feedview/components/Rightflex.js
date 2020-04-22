@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 
 //------------ Components Start ------------------
-import Story from './components/Story';
-import Suggesion from './components/Suggesion';
+import Story from './Story';
+import Suggesion from './Suggesion';
 
 //------------ Components End ------------------
 
 //----------------- CSS Start-------------------
-import '../../assets/feedview/Css/ImgBox.css';
+//import '../../assets/feedview/Css/ImgBox.css';
+import '../../../assets/feedview/Css/ImgBox.css';
 //----------------- CSS End-------------------
 
 class Rightflex extends Component{
@@ -15,8 +16,7 @@ class Rightflex extends Component{
         return(
             <div className="flex">
                <stories><Story></Story></stories> 
-               <Suggesion><Suggesion></Suggesion></Suggesion>
-                
+               <Suggesion><Suggesion></Suggesion></Suggesion>               
             </div>
         );
     

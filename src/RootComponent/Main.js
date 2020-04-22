@@ -5,6 +5,7 @@ import React, {Component} from 'react';
 import Landing from '../pages/landing/Landing';
 import Competition from '../pages/competition/Competition';
 import Profile from '../pages/profile/Profile';
+import Feedview from '../pages/feedview/Feedview';
 
 //------------ Components End ------------------
 
@@ -42,6 +43,9 @@ class Main extends Component{
                             </Route>
                             <Route path="/landing">
                                 <Landing></Landing>
+                            </Route>
+                            <Route path="/feedview">
+                                <Feedview></Feedview>
                             </Route>
                     </Switch>
                 </div>
